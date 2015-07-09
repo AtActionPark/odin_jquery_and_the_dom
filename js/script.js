@@ -12,7 +12,6 @@ $(document).ready(function(){
 });
 
 var playGame = function () {
-
   $('.score').text("Score : "+score);
   $('.home').hide();
   $('.gameOver').hide();
@@ -174,7 +173,7 @@ var makeFood = function(){
 }
 
 var isEatingFood = function(){
-  return snake.headPosition[0] == food.position[0] && snake.headPosition[1] == food.position[1]
+  return arrayEql(snake.headPosition, food.position);
 }
 
 var eatFood = function(){
@@ -185,7 +184,6 @@ var eatFood = function(){
   $('.score').text("Score : "+score);
   grow();
   makeFood();
-  
 }
 
 var grow = function(){
