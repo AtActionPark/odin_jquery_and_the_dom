@@ -37,4 +37,4 @@ If you think about what's required to make a game like this work, it's all well 
 12. Upload your snake to Github and put your code down below.
 
 
-[HTML preview](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_jquery_and_the_dom/blob/master/main.html)
+[HTML preview](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_jquery_and_the_dom/blob/master/index.html)
