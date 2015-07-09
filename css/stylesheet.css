@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  height:60px;
+  background-color: #3F3F3F;
+  color:white;
+}
+
+.footer{
+  clear:both;
+  width:90%;
+  margin: 50px auto;
+  border-top: 1px solid #3F3F3F;
+  height:40px;
+}
+
+.home, .gameOver{
+  float:left;
+  width:400px;
+  margin-left: 20px;
+  margin-top:20px;
+}
+
+button{
+  margin-left:50px;
+  display:inline-block;
+  width:100px;
+  height:20px;
+}
+
+.score{
+  float:right;
+  margin-top:20px;
+  margin-right:100px;
+}
+
+.text {
+  float:left;
+}
+
+.about{
+  margin-left:20px;
+  margin-top:10px;
+}
+
+
+
+.container{
+  width: 600px;
+  margin:20px auto;
+  border: 1px solid black;
+}
+
+#board{
+  width: 600px;
+  height: 600px;
+}
+
+.tile{
+  width:15px;
+  height:15px;
+  border: 1px solid rgba(0,0,0,0.5);
+  box-sizing : border-box;
+  float:left;
+  text-align: center;
+}
+
+.snake{
+  background-color: yellow;
+}
+
+.head{
+  background-color: red;
+}
+
+.food{
+  background-color: green;
+}
